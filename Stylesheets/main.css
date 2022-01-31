@@ -1,0 +1,6 @@
+
+/* styling sheet for first two pages */
+@import 'first-half.css';
+/* styling tags for next two pages */
+@import 'second-half.css';
+

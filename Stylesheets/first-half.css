@@ -1,0 +1,160 @@
+
+/* padding to body element */
+#body{
+    padding: 30px;
+}
+/* image padding */
+#img{
+    padding: 25px;
+}
+span{
+    padding:30px;
+}
+/* head section */
+.breadcrumbs{
+    text-align: left;
+    color: blue;
+    font-size:20px;
+    padding: 25px;
+
+}
+/* isearch box adding special effects */
+.searchbox{
+    width:100px;
+    border-radius:15px;
+    -moz-border-radius:25px;
+    -moz-box-shadow:    1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow:         1px 2px 2px 2px #ccc;
+}
+
+/* search button */
+.searchbtn{
+    display:inline-block;
+    padding:10px 20px;
+    margin:0 0.3em 0.3em 0;
+    border-radius:10px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:800;
+    color: #0d133b;
+    background-color: #456586;
+    text-align:center;
+}
+/* heading */
+.Heading{
+    font-size: 30px;
+    color: #103875;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textbox{
+    border-radius: 25px;
+    border: 2px solid #ced0e1;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+
+
+}
+/* child attribute */
+.textbox > p {
+    font-size: 20px;
+    color: #103875;
+    position: relative;
+}
+.textbox >h1{
+    font-family: "Devanagari Sangam MN";
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+}
+.textbox >h2{
+    font-size: larger;
+    font-style: italic;
+    position: relative;
+}
+/* modern home image */
+.modernhome{
+    height: 600px;
+    width: 900px;
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+    padding: 10px;
+    z-index: -1;
+
+}
+
+.box{
+    box-sizing: content-box;
+    width: 1050px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 30px;
+    background: #eef5f5;
+    position: relative;
+    opacity: 0.8;
+}
+.box >section+fieldset{
+    border-radius: 20px;
+    border: 1px solid dodgerblue;
+}
+.secondhead{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.secondhead >h1{
+    font-size: 30px;
+    color: #152065;
+}
+.secondhead >h2{
+    font-size: 40px;
+    color: #0f0f13;
+    font-style: italic;
+}
+/* continue button padding */
+.continuebtn{
+    display:inline-block;
+    padding:30px 40px;
+    margin:0 0.3em 0.3em 0;
+    border-radius:20px;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-weight:3000;
+    color: #d2d2dc;
+    background-color: #324a73;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left :600px;
+}
+.secondhead >h3{
+    font-size: 25px;
+    color: #152065;
+    text-align: center;
+}
+.secondhead >h4{
+    font-size: 25px;
+    color: #152065;
+    text-align: center;
+}
+/* button hover */
+button:hover {
+    background-color: #191991;
+    color: #648ed9;
+}
+/* anchor tag hover */
+a:hover{
+    color:dodgerblue;
+}
+
+
+
+
+
+

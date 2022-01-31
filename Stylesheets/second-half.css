@@ -1,0 +1,143 @@
+
+/* fig styles */
+.fig1{
+    border-radius: 10px;
+    border: 1px solid #1d2798;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+
+.fig1 ~ figure{
+    border-radius: 10px;
+    border: 1px solid #1d2798;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+
+.heading2{
+    font-style: normal;
+    font-palette: dark;
+    font-size: 20px;
+    text-align: center;
+    color: #103875;
+}
+/* text box styles */
+.textbox2{
+    border-radius: 10px;
+    border: 1px solid #1d2798;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    background-color: #2149ad;
+    color: #cccccc;
+    display: inline-block;
+    padding-top: 120px;
+}
+.textbox2 >p{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.textbox2 >ul{
+    font-size: 15px;
+    font-style: oblique;
+}
+.textbox2 ~figure{
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+/* last page padding */
+.lastpage{
+    border: 1px solid #1d2798;
+    color: #b2bdce;
+    width: 500px;
+    height: 300px;
+    background: #2149ad;
+    border-radius: 20px;
+    top:300px;
+    position: relative;
+    }
+.social{
+    display: inline-block;
+}
+
+.social ~span{
+    display: inline-block;
+}
+.social >figure{
+    padding: 1px;
+}
+
+.help{
+    display: inline-block;
+}
+
+.help > span{
+    display: inline-block;
+}
+/* footer styling */
+.footer{
+    box-sizing: content-box;
+    width: 1350px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    background: #89a3cb;
+    bottom: 300px;
+}
+
+.footer > footer{
+    text-align: center;
+    font-style: italic;
+}
+
+.lastpage >h1{
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+.lastpage >h2{
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+.lastpage >h3{
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    display: inline-block;
+}
+
+.lastpage ~div{
+    position: relative;
+    bottom: 200px;
+    left:400px;
+    z-index: -1;
+}
+/* search box */
+.searchall{
+    padding:30px 40px;
+    margin:0 0.3em 0.3em 0;
+    border-radius:20px;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-weight:3000;
+    color: #bcbcd7;
+    background-color: #466091;
+    position: relative;
+    left :600px;
+    bottom: 150px;
+}
+
+.footer >h1{
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: #0d133b;
+}
